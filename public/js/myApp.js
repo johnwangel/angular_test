@@ -26,3 +26,7 @@ myApp
 
 // });
 // $scope
+
+myApp.controller('MyController', ['$scope', function($scope) {
+  $scope.myFirstName ='John';
+}]);
