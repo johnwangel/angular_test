@@ -13,9 +13,11 @@ myApp
     console.log("running");
 });
 
-// // Controller
-// // Controller
-// // Code Samples
+myApp.controller('MyController', ['$scope', function($scope) {
+  $scope.myFirstName ='John';
+}]);
+
+// // ALTERNATE WAY TO CODE THE ABOVE
 // var myApp = angular.module('myApp');
 
 // myApp.controller('MyController', function(){
@@ -27,6 +29,3 @@ myApp
 // });
 // $scope
 
-myApp.controller('MyController', ['$scope', function($scope) {
-  $scope.myFirstName ='John';
-}]);
