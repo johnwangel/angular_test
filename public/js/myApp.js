@@ -15,6 +15,7 @@ myApp
 
 myApp.controller('MyController', ['$scope', function($scope) {
   $scope.myFirstName ='John';
+  $scope.myModel = 'Ready Player One';
 }]);
 
 // // ALTERNATE WAY TO CODE THE ABOVE
