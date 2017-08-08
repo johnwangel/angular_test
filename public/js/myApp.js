@@ -9,10 +9,11 @@ myApp
 .config(function(){
     // config
 })
-.run(function(){
+.run(['$rootScope', 'APP_VERSION', function($rootScope, APP_VERSION){
     // initialize
     console.log("running");
-});
+    $rootScope.version = APP_VERSION;
+}]);
 
 // // ALTERNATE WAY TO CODE THE ABOVE
 // var myApp = angular.module('myApp');
