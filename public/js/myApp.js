@@ -3,7 +3,7 @@
 angular.module('myApp', []);
 
 // retrieval has only one argument
-let myApp = angular.module('myApp');
+var myApp = angular.module('myApp');
 
 myApp
 .config(function(){
